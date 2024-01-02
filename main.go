@@ -1,7 +1,7 @@
 package main
 
 import (
-	"design-patterns/structural/adapter"
+	"design-patterns/structural/flyweight"
 )
 
 func main() {
@@ -10,5 +10,7 @@ func main() {
 	// prototype.TestPrototype()
 	// factorymethod.TestFactoryMethod()
 	// abstractfactory.TestAbstractFactory()
-	adapter.TestAdapter()
+	// adapter.TestAdapter()
+	// decorator.TestDecorator()
+	flyweight.TestFlyweight()
 }
