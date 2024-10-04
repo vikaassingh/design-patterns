@@ -1,8 +1,6 @@
 package main
 
-import (
-	"design-patterns/structural/flyweight"
-)
+import "design-patterns/structural/proxy"
 
 func main() {
 	// singleton.TestSingleton()
@@ -12,5 +10,6 @@ func main() {
 	// abstractfactory.TestAbstractFactory()
 	// adapter.TestAdapter()
 	// decorator.TestDecorator()
-	flyweight.TestFlyweight()
+	// flyweight.TestFlyweight()
+	proxy.TestProxy()
 }
