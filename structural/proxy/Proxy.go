@@ -3,7 +3,7 @@ package proxy
 import "fmt"
 
 type Proxy struct {
-	Application       *Application
+	Application       IServer
 	MaxAllowedRequest int
 	RateLimiter       map[string]int
 }
